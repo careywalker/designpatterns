@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Abstract\Pizza.cs" />
+    <Compile Include="Model\Concrete\LargePizza.cs" />
+    <Compile Include="Model\Concrete\MediumPizza.cs" />
+    <Compile Include="Model\Concrete\SmallPizza.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
