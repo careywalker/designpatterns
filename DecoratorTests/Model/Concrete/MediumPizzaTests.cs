@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Decorator.Model.Concrete;
+﻿using Decorator.Model.Concrete;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace DecoratorTests.Model.Concrete

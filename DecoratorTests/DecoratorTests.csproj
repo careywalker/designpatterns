@@ -45,14 +45,20 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>False</Private>
+        </Reference>
       </ItemGroup>
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Model\ConcreteDecorators\CheeseTests.cs" />
+    <Compile Include="Model\ConcreteDecorators\JalapenoTests.cs" />
+    <Compile Include="Model\ConcreteDecorators\PepperoniTests.cs" />
     <Compile Include="Model\Concrete\LargePizzaTests.cs" />
     <Compile Include="Model\Concrete\MediumPizzaTests.cs" />
     <Compile Include="Model\Concrete\SmallPizzaTests.cs" />
+    <Compile Include="Model\Decorators\PizzaDecoratorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

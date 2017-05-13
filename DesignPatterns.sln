@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Deco
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorTests", "DecoratorTests\DecoratorTests.csproj", "{2AD927A3-B6D1-4AEB-82D1-AA9B6B1F9E8B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DecoratorPattern", "DecoratorPattern", "{8DC27224-DFE6-4420-B557-E3A4C85DD790}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns", "StructuralPatterns", "{C0CE8C5C-C3EC-4A12-A7CC-2A2563CE0F23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{459F495E-AB4E-4F1B-A1ED-3BE2F82B6870} = {8DC27224-DFE6-4420-B557-E3A4C85DD790}
+		{2AD927A3-B6D1-4AEB-82D1-AA9B6B1F9E8B} = {8DC27224-DFE6-4420-B557-E3A4C85DD790}
+		{8DC27224-DFE6-4420-B557-E3A4C85DD790} = {C0CE8C5C-C3EC-4A12-A7CC-2A2563CE0F23}
 	EndGlobalSection
 EndGlobal
