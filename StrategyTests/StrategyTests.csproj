@@ -50,8 +50,21 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="Services\DeliveryCostCalculationServiceTests.cs" />
+    <Compile Include="Services\DeliveryCostCalculators\DroneDeliveryCostCalculatorTests.cs" />
+    <Compile Include="Services\DeliveryCostCalculators\EmployeeDeliveryCostCalculatorTests.cs" />
+    <Compile Include="Services\DeliveryCostCalculators\NoDeliveryCostCalculatorTests.cs" />
+    <Compile Include="Services\DeliveryCostCalculators\TaxiDeliveryCostCalculatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Strategy\Strategy.csproj">
+      <Project>{495e6dc5-6932-4664-a5b1-f7e307e191bf}</Project>
+      <Name>Strategy</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
