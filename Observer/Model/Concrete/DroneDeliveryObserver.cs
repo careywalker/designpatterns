@@ -4,7 +4,7 @@ namespace Observer.Model.Concrete
 {
     public class DroneDeliveryObserver : Abstract.Observer
     {
-        private DeliveryManagerSubject DeliveryManagerSubject { get; set; }
+        private DeliveryManagerSubject DeliveryManagerSubject { get; }
         public int TotalDeliveries { get; private set; }
 
         public DroneDeliveryObserver(DeliveryManagerSubject deliveryManagerSubject)

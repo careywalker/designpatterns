@@ -8,7 +8,7 @@ namespace Observer.Model.Abstract
 {
     public abstract class Subject
     {
-        readonly List<Observer> _observers = new List<Observer>();
+        private readonly List<Observer> _observers = new List<Observer>();
 
         public void Register(Observer abstractObserver)
         {
