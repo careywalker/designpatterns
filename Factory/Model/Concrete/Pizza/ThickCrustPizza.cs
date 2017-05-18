@@ -3,7 +3,7 @@ using Factory.Model.Abstract;
 
 namespace Factory.Model.Concrete.Pizza
 {
-    public class ThickCrustPizza : IPizza
+    internal class ThickCrustPizza : IPizza
     {
         public void Make()
         {
