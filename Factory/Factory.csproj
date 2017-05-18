@@ -43,8 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factories\NullPizzaFactory.cs" />
+    <Compile Include="Factories\PieCrustPizzaFactory.cs" />
+    <Compile Include="Factories\ThickCrustPizzaFactory.cs" />
+    <Compile Include="Factories\ThinCrustPizzaFactory.cs" />
     <Compile Include="Model\Abstract\IPizza.cs" />
-    <Compile Include="Model\Concrete\PizzaFactory.cs" />
+    <Compile Include="Model\Abstract\IPizzaFactory.cs" />
+    <Compile Include="Infrastructure\PizzaFactoryResolver.cs" />
     <Compile Include="Model\Concrete\Pizza\NullPizza.cs" />
     <Compile Include="Model\Concrete\Pizza\PieCrustPizza.cs" />
     <Compile Include="Model\Concrete\Pizza\ThickCrustPizza.cs" />

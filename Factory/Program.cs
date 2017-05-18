@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Factory.Model.Concrete;
+using Factory.Infrastructure;
 
 namespace Factory
 {
@@ -11,12 +7,13 @@ namespace Factory
     {
         static void Main(string[] args)
         {
-            var pizzaFactory = new PizzaFactory();
-            var pizzaTypes = pizzaFactory.GetPizzaTypes();
+            var pizzaFactoryResolver = new PizzaFactoryResolver();
+            var pizzaFactoryTypes = pizzaFactoryResolver.GetPizzaFactoryTypes();
 
-            foreach (var pizzaType in pizzaTypes)
+            foreach (var pizzaFactoryType in pizzaFactoryTypes)
             {
-                var pizza = pizzaFactory.CreateInstance(pizzaType.Key);
+                var pizzaFactory = pizzaFactoryResolver.CreateInstance(pizzaFactoryType.Key);
+                var pizza = pizzaFactory.CreatePizza();
                 pizza.Make();
                 pizza.Bake();
                 pizza.Deliver();

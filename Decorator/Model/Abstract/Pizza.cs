@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Decorator.Model.Abstract
+﻿namespace Decorator.Model.Abstract
 {
     public abstract class Pizza
     {
