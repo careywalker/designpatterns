@@ -21,17 +21,17 @@ namespace Template.Model.Abstract
 
         public abstract void MakePizza();
 
-        public void BakePizza()
+        private void BakePizza()
         {
             Console.WriteLine("All pizzas are baked the same");
         }
 
-        public void BoxPizza()
+        private void BoxPizza()
         {
             Console.WriteLine("All pizzas are put in the box the same way");
         }
 
-        public void DeliverPizza()
+        private void DeliverPizza()
         {
             Console.WriteLine("All pizzas are delivered the same");
         }
