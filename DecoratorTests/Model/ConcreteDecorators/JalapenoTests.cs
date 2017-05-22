@@ -19,7 +19,7 @@ namespace DecoratorTests.Model.ConcreteDecorators
         public void GetDescription_Returns_Jalapeno()
         {
             //Arrange
-            var jalapenoDecorator = new Jalapeno(_largePizza);
+            var jalapenoDecorator = new JalapenoDecorator(_largePizza);
 
             //Act
             var description = jalapenoDecorator.GetDescription();
@@ -32,7 +32,7 @@ namespace DecoratorTests.Model.ConcreteDecorators
         public void CalculateCost_Returns_1100()
         {
             //Arrange
-            var jalapenoDecorator = new Jalapeno(_largePizza);
+            var jalapenoDecorator = new JalapenoDecorator(_largePizza);
 
             //Act
             var cost = jalapenoDecorator.CalculateCost();

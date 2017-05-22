@@ -19,7 +19,7 @@ namespace DecoratorTests.Model.ConcreteDecorators
         public void GetDescription_Returns_Pepperoni()
         {
             //Arrange
-            var pepperoniDecorator = new Pepperoni(_largePizza);
+            var pepperoniDecorator = new PepperoniDecorator(_largePizza);
 
             //Act
             var description = pepperoniDecorator.GetDescription();
@@ -32,7 +32,7 @@ namespace DecoratorTests.Model.ConcreteDecorators
         public void CalculateCost_Returns_1075()
         {
             //Arrange
-            var pepperoniDecorator = new Pepperoni(_largePizza);
+            var pepperoniDecorator = new PepperoniDecorator(_largePizza);
 
             //Act
             var cost = pepperoniDecorator.CalculateCost();

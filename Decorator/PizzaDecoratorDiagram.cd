@@ -36,21 +36,21 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Decorator.Model.ConcreteDecorators.CheeseDecorator">
-    <Position X="3.75" Y="5.5" Width="1.5" />
+    <Position X="3.75" Y="5.5" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAACAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Model\Decorators\ConcreteDecorators\CheeseDecorator.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Decorator.Model.ConcreteDecorators.JalapenoDecorator">
-    <Position X="5.75" Y="5.5" Width="1.5" />
+    <Position X="6.25" Y="5.5" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAACAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAACAAAAAAAAAAAIAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Model\Decorators\ConcreteDecorators\JalapenoDecorator.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Decorator.Model.ConcreteDecorators.PepperoniDecorator">
-    <Position X="8" Y="5.5" Width="1.5" />
+    <Position X="9" Y="5.5" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAACAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Model\Decorators\ConcreteDecorators\PepperoniDecorator.cs</FileName>
