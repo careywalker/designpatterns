@@ -37,11 +37,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryTests", "FactoryTest
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{2284ED61-C0D2-4D7A-92A1-CAF5476868A6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplatePattern", "TemplatePattern", "{F9696CC3-2058-4364-85DC-29A814FAFD35}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateMethodPattern", "TemplateMethodPattern", "{F9696CC3-2058-4364-85DC-29A814FAFD35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "Template\Template.csproj", "{DF6958A3-94AC-4673-9BE1-03A72DD7E4FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "Template\TemplateMethod.csproj", "{DF6958A3-94AC-4673-9BE1-03A72DD7E4FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateTests", "TemplateTests\TemplateTests.csproj", "{CF3C00E7-75E7-40A7-A121-CCDD75D6ECAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodTests", "TemplateTests\TemplateMethodTests.csproj", "{CF3C00E7-75E7-40A7-A121-CCDD75D6ECAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TemplateMethod.Model.Abstract.PizzaOrder">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAAAAQAAAQAAAAAAAAAAAAAAAgAI=</HashCode>
+      <FileName>Model\Abstract\PizzaOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TemplateMethod.Model.Concrete.StuffedCrustPizza">
+    <Position X="1" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Concrete\StuffedCrustPizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TemplateMethod.Model.Concrete.ThickCrustPizza">
+    <Position X="3.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Concrete\ThickCrustPizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TemplateMethod.Model.Concrete.ThinCrustPizza">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Concrete\ThinCrustPizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

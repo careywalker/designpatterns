@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Template.Model.Abstract;
+using TemplateMethod.Model.Abstract;
 
-namespace Template.Model.Concrete
+namespace TemplateMethod.Model.Concrete
 {
     public class StuffedCrustPizza : PizzaOrder
     {

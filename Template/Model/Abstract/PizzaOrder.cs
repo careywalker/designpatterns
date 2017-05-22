@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.SqlServer.Server;
 
-namespace Template.Model.Abstract
+namespace TemplateMethod.Model.Abstract
 {
     public abstract class PizzaOrder
     {

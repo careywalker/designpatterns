@@ -19,7 +19,7 @@ namespace DecoratorTests.Model.ConcreteDecorators
         public void GetDescription_Returns_Cheese()
         {
             //Arrange
-            var cheeseDecorator = new Cheese(_largePizza);
+            var cheeseDecorator = new CheeseDecorator(_largePizza);
 
             //Act
             var description = cheeseDecorator.GetDescription();
@@ -32,7 +32,7 @@ namespace DecoratorTests.Model.ConcreteDecorators
         public void CalculateCost_Returns_1025()
         {
             //Arrange
-            var cheeseDecorator = new Cheese(_largePizza);
+            var cheeseDecorator = new CheeseDecorator(_largePizza);
 
             //Act
             var cost = cheeseDecorator.CalculateCost();

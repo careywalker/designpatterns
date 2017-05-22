@@ -10,9 +10,9 @@ namespace Decorator
         static void Main(string[] args)
         {
             Pizza largePizza = new LargePizza();
-            largePizza = new Cheese(largePizza);
-            largePizza = new Jalapeno(largePizza);
-            largePizza = new Pepperoni(largePizza);
+            largePizza = new CheeseDecorator(largePizza);
+            largePizza = new JalapenoDecorator(largePizza);
+            largePizza = new PepperoniDecorator(largePizza);
 
 
             Console.WriteLine(largePizza.GetDescription());

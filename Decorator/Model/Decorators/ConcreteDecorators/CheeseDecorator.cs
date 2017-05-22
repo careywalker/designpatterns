@@ -3,11 +3,11 @@ using Decorator.Model.Decorators;
 
 namespace Decorator.Model.ConcreteDecorators
 {
-    public class Pepperoni : PizzaDecorator
+    public class CheeseDecorator : PizzaDecorator
     {
-        public Pepperoni(Pizza pizza) : base(pizza)
+        public CheeseDecorator(Pizza pizza) : base(pizza)
         {
-            Description = "Pepperoni";
+            Description = "Cheese";
         }
 
         public override string GetDescription()
@@ -17,7 +17,7 @@ namespace Decorator.Model.ConcreteDecorators
 
         public override double CalculateCost()
         {
-            return Pizza.CalculateCost() + 1.75;
+            return Pizza.CalculateCost() + 1.25;
         }
     }
 }

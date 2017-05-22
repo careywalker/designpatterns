@@ -44,9 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Abstract\Pizza.cs" />
-    <Compile Include="Model\ConcreteDecorators\Cheese.cs" />
-    <Compile Include="Model\ConcreteDecorators\Jalapeno.cs" />
-    <Compile Include="Model\ConcreteDecorators\Pepperoni.cs" />
+    <Compile Include="Model\Decorators\ConcreteDecorators\CheeseDecorator.cs" />
+    <Compile Include="Model\Decorators\ConcreteDecorators\JalapenoDecorator.cs" />
+    <Compile Include="Model\Decorators\ConcreteDecorators\PepperoniDecorator.cs" />
     <Compile Include="Model\Concrete\LargePizza.cs" />
     <Compile Include="Model\Concrete\MediumPizza.cs" />
     <Compile Include="Model\Concrete\SmallPizza.cs" />
@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="PizzaDecoratorDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
